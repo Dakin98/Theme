@@ -1,11 +1,18 @@
 {
-    "sections": {
-        "template": {
-            "type": "template-404"
-        },
-        "content": {
-            "type": "example"
-        }
+  "sections": {
+    "template": {
+      "type": "template-404",
+      "settings": {
+      }
     },
-    "order": ["template", "content"]
+    "content": {
+      "type": "template-404",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "template",
+    "content"
+  ]
 }
